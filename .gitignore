@@ -2,3 +2,7 @@
 /node-demo
 package-lock.json
 Node_Passport_Login/node_modules
+/book/_MACOSX
+/book/book/node_modules
+/book/book/.DS_Store
+/nodemysql/node_modules

@@ -1,0 +1,13 @@
+doctype html
+html
+   head
+      title Hello Pug
+   body
+      include ./header.pug
+      p Welcome to our book store!
+      include ./footer.pug
+
+      if(user)
+         h1 Hi #{user.name}
+      else
+         a(href = "/sign_up") Sign Up
